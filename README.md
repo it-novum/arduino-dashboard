@@ -32,6 +32,9 @@ ng serve
 
 Open your web browser and navigate to `http://localhost:4200/`
 
+## Arduino Sketch
+You canflash the file `sketch/arduino/arduino.ino` to your Arduino.
+
 # License
 
 ```
