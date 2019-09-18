@@ -1,0 +1,46 @@
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+  <h5 class="my-0 mr-md-auto font-weight-normal">IoT Dashboard</h5>
+  <nav class="my-2 my-md-0 mr-md-3">
+    <!-- <a class="p-2 text-dark" href="#">Features</a>
+    <a class="p-2 text-dark" href="#">Enterprise</a>
+    <a class="p-2 text-dark" href="#">Support</a>
+    <a class="p-2 text-dark" href="#">Pricing</a> -->
+  </nav>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-6 card-deck mb-3 text-center">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">
+            Humidity
+          </h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title"> {{humidity}}%</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 card-deck mb-3 text-center">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">
+            Temperature
+          </h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title"> {{temperature}}°C</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    Footer
+  </footer>
+</div>
+
+<router-outlet></router-outlet>
