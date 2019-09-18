@@ -10,9 +10,12 @@ A simple dashboard to view live data collected by an Arduino Uno and an DHT22 bu
 git clone https://github.com/it-novum/arduino-dashboard.git
 cd arduino-dashboard/
 
+# Install backend components
 npm install
 
+# Install frontend components
 cd ngfrontend
+npm install
 ```
 
 ## Execute
