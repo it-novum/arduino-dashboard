@@ -1,6 +1,8 @@
 # Arduino Dashboard
 A simple dashboard to view live data collected by an Arduino Uno and an DHT22 build with Angular
 
+![Live Arduino Dashboard](dashboard.gif?raw=true "Live Arduino Dashboard based on Angular")
+
 ## Requirements
  - Nodejs
  - Angular 
