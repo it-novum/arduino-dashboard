@@ -13,10 +13,12 @@ export class AppComponent {
   title = 'ngfrontend';
   data: {
     humidity: 0,
-    temperature: 0
+    temperature: 0,
+    time: 0
   };
   humidity: 0;
   temperature: 0;
+  lastUpdate: 0;
 
   constructor(private socket: Socket) {
     this.socket.on('data', (data) => {
@@ -28,6 +30,7 @@ export class AppComponent {
   updateData(){
     this.humidity = this.data.humidity;
     this.temperature = this.data.temperature;
+    this.lastUpdate = this.data.time;
   }
 
 
