@@ -18,6 +18,7 @@ npm install
 # Install frontend components
 cd ngfrontend
 npm install
+cd ../
 ```
 
 ## Execute
