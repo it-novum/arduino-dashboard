@@ -22,7 +22,7 @@
     "bootstrap": "^4.3.1",
     "canvas-gauges": "^2.1.5",
     "chart.js": "^2.8.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ngx-socket-io": "^3.0.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
